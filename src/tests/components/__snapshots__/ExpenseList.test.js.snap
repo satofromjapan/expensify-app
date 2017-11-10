@@ -80,21 +80,21 @@ ShallowWrapper {
     expenses={
         Array [
             Object {
-              "amount": 700,
+              "amount": 195,
               "createdAt": 0,
               "description": "Coffee",
               "id": "1",
               "note": "",
             },
             Object {
-              "amount": 2700,
+              "amount": 109500,
               "createdAt": -345600000,
               "description": "Pizza",
               "id": "2",
               "note": "",
             },
             Object {
-              "amount": 1700,
+              "amount": 4500,
               "createdAt": 345600000,
               "description": "Burger",
               "id": "3",
@@ -117,21 +117,21 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <ExpenseListItem
-          amount={700}
+          amount={195}
           createdAt={0}
           description="Coffee"
           id="1"
           note=""
 />,
         <ExpenseListItem
-          amount={2700}
+          amount={109500}
           createdAt={-345600000}
           description="Pizza"
           id="2"
           note=""
 />,
         <ExpenseListItem
-          amount={1700}
+          amount={4500}
           createdAt={345600000}
           description="Burger"
           id="3"
@@ -146,7 +146,7 @@ ShallowWrapper {
         "key": "1",
         "nodeType": "function",
         "props": Object {
-          "amount": 700,
+          "amount": 195,
           "createdAt": 0,
           "description": "Coffee",
           "id": "1",
@@ -161,7 +161,7 @@ ShallowWrapper {
         "key": "2",
         "nodeType": "function",
         "props": Object {
-          "amount": 2700,
+          "amount": 109500,
           "createdAt": -345600000,
           "description": "Pizza",
           "id": "2",
@@ -176,7 +176,7 @@ ShallowWrapper {
         "key": "3",
         "nodeType": "function",
         "props": Object {
-          "amount": 1700,
+          "amount": 4500,
           "createdAt": 345600000,
           "description": "Burger",
           "id": "3",
@@ -197,21 +197,21 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <ExpenseListItem
-            amount={700}
+            amount={195}
             createdAt={0}
             description="Coffee"
             id="1"
             note=""
 />,
           <ExpenseListItem
-            amount={2700}
+            amount={109500}
             createdAt={-345600000}
             description="Pizza"
             id="2"
             note=""
 />,
           <ExpenseListItem
-            amount={1700}
+            amount={4500}
             createdAt={345600000}
             description="Burger"
             id="3"
@@ -226,7 +226,7 @@ ShallowWrapper {
           "key": "1",
           "nodeType": "function",
           "props": Object {
-            "amount": 700,
+            "amount": 195,
             "createdAt": 0,
             "description": "Coffee",
             "id": "1",
@@ -241,7 +241,7 @@ ShallowWrapper {
           "key": "2",
           "nodeType": "function",
           "props": Object {
-            "amount": 2700,
+            "amount": 109500,
             "createdAt": -345600000,
             "description": "Pizza",
             "id": "2",
@@ -256,7 +256,7 @@ ShallowWrapper {
           "key": "3",
           "nodeType": "function",
           "props": Object {
-            "amount": 1700,
+            "amount": 4500,
             "createdAt": 345600000,
             "description": "Burger",
             "id": "3",

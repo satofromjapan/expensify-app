@@ -755,7 +755,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <ExpenseForm
     expense={
         Object {
-            "amount": 700,
+            "amount": 195,
             "createdAt": 0,
             "description": "Coffee",
             "id": "1",
@@ -791,7 +791,7 @@ ShallowWrapper {
                     onChange={[Function]}
                     placeholder="Amount"
                     type="text"
-                    value="7"
+                    value="1.95"
           />
           <SingleDatePicker
                     anchorDirection="left"
@@ -900,7 +900,7 @@ ShallowWrapper {
               onChange={[Function]}
               placeholder="Amount"
               type="text"
-              value="7"
+              value="1.95"
 />,
             <SingleDatePicker
               anchorDirection="left"
@@ -1014,7 +1014,7 @@ ShallowWrapper {
               "onChange": [Function],
               "placeholder": "Amount",
               "type": "text",
-              "value": "7",
+              "value": "1.95",
             },
             "ref": null,
             "rendered": null,
@@ -1154,7 +1154,7 @@ ShallowWrapper {
                         onChange={[Function]}
                         placeholder="Amount"
                         type="text"
-                        value="7"
+                        value="1.95"
             />
             <SingleDatePicker
                         anchorDirection="left"
@@ -1263,7 +1263,7 @@ ShallowWrapper {
                 onChange={[Function]}
                 placeholder="Amount"
                 type="text"
-                value="7"
+                value="1.95"
 />,
               <SingleDatePicker
                 anchorDirection="left"
@@ -1377,7 +1377,7 @@ ShallowWrapper {
                 "onChange": [Function],
                 "placeholder": "Amount",
                 "type": "text",
-                "value": "7",
+                "value": "1.95",
               },
               "ref": null,
               "rendered": null,

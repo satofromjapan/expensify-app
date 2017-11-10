@@ -5,7 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ExpenseListItem
-    amount={2700}
+    amount={109500}
     createdAt={-345600000}
     description="Pizza"
     id="2"
@@ -34,7 +34,7 @@ ShallowWrapper {
 </h3>,
         <p>
           Amount: 
-          $27.00
+          $1,095.00
 </p>,
         <p>
           Created At: 
@@ -79,13 +79,13 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             "Amount: ",
-            "$27.00",
+            "$1,095.00",
           ],
         },
         "ref": null,
         "rendered": Array [
           "Amount: ",
-          "$27.00",
+          "$1,095.00",
         ],
         "type": "p",
       },
@@ -126,7 +126,7 @@ ShallowWrapper {
 </h3>,
           <p>
             Amount: 
-            $27.00
+            $1,095.00
 </p>,
           <p>
             Created At: 
@@ -171,13 +171,13 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               "Amount: ",
-              "$27.00",
+              "$1,095.00",
             ],
           },
           "ref": null,
           "rendered": Array [
             "Amount: ",
-            "$27.00",
+            "$1,095.00",
           ],
           "type": "p",
         },
