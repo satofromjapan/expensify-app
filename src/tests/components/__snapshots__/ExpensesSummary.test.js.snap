@@ -20,14 +20,36 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        <p>
-                Viewing 
-                23
-                 expenses totalling 
-                $2,358,907,987.34
-        </p>
-</h1>,
+      "children": <div
+        className="content-container"
+>
+        <h1
+                className="page-header__title"
+        >
+                <p>
+                        Viewing 
+                        <span>
+                                23
+                        </span>
+                         expenses totalling 
+                        <span>
+                                $2,358,907,987.34
+                        </span>
+                </p>
+        </h1>
+        <div
+                className="page-header__actions"
+        >
+                <Link
+                        className="button-layout"
+                        replace={false}
+                        to="/create"
+                >
+                        Add Expense
+                </Link>
+        </div>
+</div>,
+      "className": "page-header",
     },
     "ref": null,
     "rendered": Object {
@@ -35,36 +57,135 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <p>
-          Viewing 
-          23
-           expenses totalling 
-          $2,358,907,987.34
-</p>,
+        "children": Array [
+          <h1
+            className="page-header__title"
+>
+            <p>
+                        Viewing 
+                        <span>
+                                    23
+                        </span>
+                         expenses totalling 
+                        <span>
+                                    $2,358,907,987.34
+                        </span>
+            </p>
+</h1>,
+          <div
+            className="page-header__actions"
+>
+            <Link
+                        className="button-layout"
+                        replace={false}
+                        to="/create"
+            >
+                        Add Expense
+            </Link>
+</div>,
+        ],
+        "className": "content-container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "Viewing ",
-            23,
-            " expenses totalling ",
-            "$2,358,907,987.34",
-          ],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p>
+              Viewing 
+              <span>
+                            23
+              </span>
+               expenses totalling 
+              <span>
+                            $2,358,907,987.34
+              </span>
+</p>,
+            "className": "page-header__title",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Viewing ",
+                <span>
+                  23
+</span>,
+                " expenses totalling ",
+                <span>
+                  $2,358,907,987.34
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Viewing ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 23,
+                },
+                "ref": null,
+                "rendered": 23,
+                "type": "span",
+              },
+              " expenses totalling ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$2,358,907,987.34",
+                },
+                "ref": null,
+                "rendered": "$2,358,907,987.34",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": Array [
-          "Viewing ",
-          23,
-          " expenses totalling ",
-          "$2,358,907,987.34",
-        ],
-        "type": "p",
-      },
-      "type": "h1",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              className="button-layout"
+              replace={false}
+              to="/create"
+>
+              Add Expense
+</Link>,
+            "className": "page-header__actions",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Add Expense",
+              "className": "button-layout",
+              "replace": false,
+              "to": "/create",
+            },
+            "ref": null,
+            "rendered": "Add Expense",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
     },
     "type": "div",
   },
@@ -74,14 +195,36 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          <p>
-                    Viewing 
-                    23
-                     expenses totalling 
-                    $2,358,907,987.34
-          </p>
-</h1>,
+        "children": <div
+          className="content-container"
+>
+          <h1
+                    className="page-header__title"
+          >
+                    <p>
+                              Viewing 
+                              <span>
+                                        23
+                              </span>
+                               expenses totalling 
+                              <span>
+                                        $2,358,907,987.34
+                              </span>
+                    </p>
+          </h1>
+          <div
+                    className="page-header__actions"
+          >
+                    <Link
+                              className="button-layout"
+                              replace={false}
+                              to="/create"
+                    >
+                              Add Expense
+                    </Link>
+          </div>
+</div>,
+        "className": "page-header",
       },
       "ref": null,
       "rendered": Object {
@@ -89,36 +232,135 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <p>
-            Viewing 
-            23
-             expenses totalling 
-            $2,358,907,987.34
-</p>,
+          "children": Array [
+            <h1
+              className="page-header__title"
+>
+              <p>
+                            Viewing 
+                            <span>
+                                          23
+                            </span>
+                             expenses totalling 
+                            <span>
+                                          $2,358,907,987.34
+                            </span>
+              </p>
+</h1>,
+            <div
+              className="page-header__actions"
+>
+              <Link
+                            className="button-layout"
+                            replace={false}
+                            to="/create"
+              >
+                            Add Expense
+              </Link>
+</div>,
+          ],
+          "className": "content-container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Viewing ",
-              23,
-              " expenses totalling ",
-              "$2,358,907,987.34",
-            ],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                Viewing 
+                <span>
+                                23
+                </span>
+                 expenses totalling 
+                <span>
+                                $2,358,907,987.34
+                </span>
+</p>,
+              "className": "page-header__title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Viewing ",
+                  <span>
+                    23
+</span>,
+                  " expenses totalling ",
+                  <span>
+                    $2,358,907,987.34
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Viewing ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 23,
+                  },
+                  "ref": null,
+                  "rendered": 23,
+                  "type": "span",
+                },
+                " expenses totalling ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "$2,358,907,987.34",
+                  },
+                  "ref": null,
+                  "rendered": "$2,358,907,987.34",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": Array [
-            "Viewing ",
-            23,
-            " expenses totalling ",
-            "$2,358,907,987.34",
-          ],
-          "type": "p",
-        },
-        "type": "h1",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                className="button-layout"
+                replace={false}
+                to="/create"
+>
+                Add Expense
+</Link>,
+              "className": "page-header__actions",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Add Expense",
+                "className": "button-layout",
+                "replace": false,
+                "to": "/create",
+              },
+              "ref": null,
+              "rendered": "Add Expense",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
       "type": "div",
     },
@@ -153,14 +395,36 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-        <p>
-                Viewing 
-                1
-                 expense totalling 
-                $2.35
-        </p>
-</h1>,
+      "children": <div
+        className="content-container"
+>
+        <h1
+                className="page-header__title"
+        >
+                <p>
+                        Viewing 
+                        <span>
+                                1
+                        </span>
+                         expense totalling 
+                        <span>
+                                $2.35
+                        </span>
+                </p>
+        </h1>
+        <div
+                className="page-header__actions"
+        >
+                <Link
+                        className="button-layout"
+                        replace={false}
+                        to="/create"
+                >
+                        Add Expense
+                </Link>
+        </div>
+</div>,
+      "className": "page-header",
     },
     "ref": null,
     "rendered": Object {
@@ -168,36 +432,135 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <p>
-          Viewing 
-          1
-           expense totalling 
-          $2.35
-</p>,
+        "children": Array [
+          <h1
+            className="page-header__title"
+>
+            <p>
+                        Viewing 
+                        <span>
+                                    1
+                        </span>
+                         expense totalling 
+                        <span>
+                                    $2.35
+                        </span>
+            </p>
+</h1>,
+          <div
+            className="page-header__actions"
+>
+            <Link
+                        className="button-layout"
+                        replace={false}
+                        to="/create"
+            >
+                        Add Expense
+            </Link>
+</div>,
+        ],
+        "className": "content-container",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "Viewing ",
-            1,
-            " expense totalling ",
-            "$2.35",
-          ],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <p>
+              Viewing 
+              <span>
+                            1
+              </span>
+               expense totalling 
+              <span>
+                            $2.35
+              </span>
+</p>,
+            "className": "page-header__title",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Viewing ",
+                <span>
+                  1
+</span>,
+                " expense totalling ",
+                <span>
+                  $2.35
+</span>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              "Viewing ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1,
+                },
+                "ref": null,
+                "rendered": 1,
+                "type": "span",
+              },
+              " expense totalling ",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$2.35",
+                },
+                "ref": null,
+                "rendered": "$2.35",
+                "type": "span",
+              },
+            ],
+            "type": "p",
+          },
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": Array [
-          "Viewing ",
-          1,
-          " expense totalling ",
-          "$2.35",
-        ],
-        "type": "p",
-      },
-      "type": "h1",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Link
+              className="button-layout"
+              replace={false}
+              to="/create"
+>
+              Add Expense
+</Link>,
+            "className": "page-header__actions",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Add Expense",
+              "className": "button-layout",
+              "replace": false,
+              "to": "/create",
+            },
+            "ref": null,
+            "rendered": "Add Expense",
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
     },
     "type": "div",
   },
@@ -207,14 +570,36 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-          <p>
-                    Viewing 
-                    1
-                     expense totalling 
-                    $2.35
-          </p>
-</h1>,
+        "children": <div
+          className="content-container"
+>
+          <h1
+                    className="page-header__title"
+          >
+                    <p>
+                              Viewing 
+                              <span>
+                                        1
+                              </span>
+                               expense totalling 
+                              <span>
+                                        $2.35
+                              </span>
+                    </p>
+          </h1>
+          <div
+                    className="page-header__actions"
+          >
+                    <Link
+                              className="button-layout"
+                              replace={false}
+                              to="/create"
+                    >
+                              Add Expense
+                    </Link>
+          </div>
+</div>,
+        "className": "page-header",
       },
       "ref": null,
       "rendered": Object {
@@ -222,36 +607,135 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <p>
-            Viewing 
-            1
-             expense totalling 
-            $2.35
-</p>,
+          "children": Array [
+            <h1
+              className="page-header__title"
+>
+              <p>
+                            Viewing 
+                            <span>
+                                          1
+                            </span>
+                             expense totalling 
+                            <span>
+                                          $2.35
+                            </span>
+              </p>
+</h1>,
+            <div
+              className="page-header__actions"
+>
+              <Link
+                            className="button-layout"
+                            replace={false}
+                            to="/create"
+              >
+                            Add Expense
+              </Link>
+</div>,
+          ],
+          "className": "content-container",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Viewing ",
-              1,
-              " expense totalling ",
-              "$2.35",
-            ],
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <p>
+                Viewing 
+                <span>
+                                1
+                </span>
+                 expense totalling 
+                <span>
+                                $2.35
+                </span>
+</p>,
+              "className": "page-header__title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Viewing ",
+                  <span>
+                    1
+</span>,
+                  " expense totalling ",
+                  <span>
+                    $2.35
+</span>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Viewing ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1,
+                  },
+                  "ref": null,
+                  "rendered": 1,
+                  "type": "span",
+                },
+                " expense totalling ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "$2.35",
+                  },
+                  "ref": null,
+                  "rendered": "$2.35",
+                  "type": "span",
+                },
+              ],
+              "type": "p",
+            },
+            "type": "h1",
           },
-          "ref": null,
-          "rendered": Array [
-            "Viewing ",
-            1,
-            " expense totalling ",
-            "$2.35",
-          ],
-          "type": "p",
-        },
-        "type": "h1",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                className="button-layout"
+                replace={false}
+                to="/create"
+>
+                Add Expense
+</Link>,
+              "className": "page-header__actions",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Add Expense",
+                "className": "button-layout",
+                "replace": false,
+                "to": "/create",
+              },
+              "ref": null,
+              "rendered": "Add Expense",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
       },
       "type": "div",
     },
