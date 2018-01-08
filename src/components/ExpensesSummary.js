@@ -14,7 +14,7 @@ export const ExpensesSummary = ({
 	const expenseWord = displayedExpenses == 1 ? 'expense' : 'expenses';
 	const allExpenses =
 		displayedExpenses == totalExpenses ? '' : `(out of ${totalExpenses})`;
-	const amount = numeral(totalExpenses / 100).format('$0,0.00');
+	const amount = numeral(expensesTotal / 100).format('$0,0.00');
 	let heading = (
 		<h1 className="page-header__title">
 			Viewing <span>{displayedExpenses}</span> {expenseWord} {allExpenses}{' '}
