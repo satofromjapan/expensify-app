@@ -49,6 +49,12 @@
 	word-break: break-all;
 }
 
+.list-item__note {
+	color: $grey;
+	font-size: $font-size-small;
+	font-weight: normal;
+}
+
 .list-item__sub-title {
 	color: $grey;
 	font-size: $font-size-small;
